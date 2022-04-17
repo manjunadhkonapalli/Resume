@@ -6,40 +6,62 @@
 <body>
     
     <form>
-        <u><h3><p>Different input types:</p></h3></u>
-        <label>Text:</label>
-       <input type="text" name="" value=""><br>
-        <br>
-       <input type="submit" name="" value="Submit"><br>
-        <br>
-       <input type="file" name="" value=""><br>
-       <br>
+    <!--Submitting the form takes us to Homepage.html file-->
+    <form action="mailto:manjunadh554@gmail.com" method="post" enctype="text/plain">  
+        <u><h3><p>Send me your Details:</p></h3></u>
+        <label>Full Name:</label><br>
+        <input type="text" name="YourName" value=""><br><br>
+        
+        <label>Email:</label><br>
+        <input type="email" name="YourMail" value=""><br><br>
+        
 
-       <label>Date:</label>
-       <input type="date" name="" value=""><br>
-        <br>
-<hr size="3" noshade color="pink">
-
-    <h2>Radio Buttons:</h2> 
-    <!--For it to work correctly as actual radio buttons, make sure value of name attributes of desired buttons should be same (vehicle1,vehicle1) -->
-    <!--If we give (vehicle1,vehicle2), this radio buttons will work as checkboxes -->
-        <input type="radio" id ="bike" name="vehicle1" value="BIKE">
-        <label for="bike">BIKE</label><br>
-        <input type="radio" id="car" name="vehicle1" value="CAR">
-        <label for="car">CAR</label<br>
-
-    <hr size="3" noshade color="blue">  
-       <label>Range:</label>
-       <input type="range" name="" value=""><br>
-
-    <h2>Checkboxes:</h2>
-       <input type="checkbox" id="house" name="property1"  value="HOUSE">
-       <label for="house">I own a House</label><br>
-       <input type="checkbox" id="luxurycar" name="property2" value="AUDI">
-       <label for="luxurycar">I own an Audi</label><br>
-       <input type="checkbox" id="land" name="property2" value="LAND">
-       <label for="land">I own some Land</label><br>
-
+        <input type="submit" name="" value="Submit"><br><br>
+        
+        <label>Address:</label><br>
+        <textarea name="YourAdd" rows="10" cols="30">Type Here..</textarea><br><br>
+        
+        <input type="submit" name="" value="Submit">
     </form>
+    
+    <hr size="3" noshade color="red">
+<!--Showcasing all skills in single page starts here-->
+        <form>
+            <u><h3><p>Different input types:</p></h3></u>
+            <label>Text:</label>
+           <input type="text" name="" value=""><br>
+            <br>
+           <input type="submit" name="" value="Submit"><br>
+            <br>
+           <input type="file" name="" value=""><br>
+           <br>
+    
+           <label>Date:</label>
+           <input type="date" name="" value=""><br>
+            <br>
+    <hr size="3" noshade color="pink">
+    
+        <h2>Radio Buttons:</h2> 
+        <!--For it to work correctly as actual radio buttons, make sure value of name attributes of desired buttons should be same (vehicle1,vehicle1) -->
+        <!--If we give (vehicle1,vehicle2), this radio buttons will work as checkboxes -->
+            <input type="radio" id ="bike" name="vehicle1" value="BIKE">
+            <label for="bike">BIKE</label><br>
+            <input type="radio" id="car" name="vehicle1" value="CAR">
+            <label for="car">CAR</label<br>
+    
+        <hr size="3" noshade color="blue">  
+           <label>Range:</label>
+           <input type="range" name="" value=""><br>
+    
+        <h2>Checkboxes:</h2>
+           <input type="checkbox" id="house" name="property1"  value="HOUSE">
+           <label for="house">I own a House</label><br>
+           <input type="checkbox" id="luxurycar" name="property2" value="AUDI">
+           <label for="luxurycar">I own an Audi</label><br>
+           <input type="checkbox" id="land" name="property2" value="LAND">
+           <label for="land">I own some Land</label><br>
+    
+        </form>
+<!--Showcasing all skills in single page Ends here-->
 </body>
 </html>
