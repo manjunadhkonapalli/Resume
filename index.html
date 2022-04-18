@@ -5,6 +5,8 @@
 <head>
     <meta charset="utf-8">
     <title>Manjunadh`s Personal Site</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+
 </head>
 
 <body>
@@ -15,9 +17,9 @@
     <!--If image is in different Hierarchical level(not as of index.html file) 
         then use path starting from where index.html located like(Images/MY PHOTO.JPEG)  -->
 
-    <table cellspacing="10">
+    <table cellspacing="10" style="border: 8px solid rgb(163, 164, 162)">
         <tr>
-            <td><img src="Images/Latest Photo-circle crop2.jpg" alt="Oops! something went wrong."/></td>
+            <td><img src="Images/Latest Photo-circle crop2.jpg" alt="Oops! something went wrong."/></td>  <!--can also add height,width attributes to adjust img size-->
             <td><h1>Konapalli Manjunadh</h1>
                 <p><em>Student and placement coordinator at <strong><a href="https://paruluniversity.ac.in/" target="_blank">Parul University</a></strong></em></p>
                 <p>Helo! i am a 4th year student at Parul University currently persuing my Bachelor`s degree here. 
@@ -29,11 +31,13 @@
         </tr>
     </table>
 
-    <hr size="2" noshade color="black">
+    <!--hr width="5%" style="border-style:dotted none none none; border-width:7px; border-color:rgb(244, 241, 241)"-->
+    <hr>
     <u><h3>Education:</h3></u>
-    <table  cellspacing="20">
+    <table  cellspacing="20" border="1" style="border-style:double; border-color:black; border-width:2px; border-collapse:collapse; border-spacing:10px;"> 
+        <!--border spacing sets the distance between the borders of adjacent cells. And it works only when border-collapse is set to separete. Wont work when it is set to Collapse -->
         <thead>
-            <tr>
+            <tr style="background-color:rgb(163, 164, 162)">
                 <th>Degree/Grade</th>
                 <th>Institution</th>
                 <th>CGPA/Marks</th>
@@ -61,7 +65,7 @@
             </tr>
         </tbody>
     </table>
-    <hr size="2" noshade color="black">
+    <hr>
      <u><h3>Hobbies:</h3></u>
         <ol>
             <li>Cooking</li>
@@ -69,7 +73,7 @@
             <li>Listening to music</li>
             <li>Browsing tech related articles</li>
         </ol>
-    <hr size="2" noshade color="black">
+        <hr>
     <u><h3>Experience:</h3></u>
         <dl>
             <dt>Web Developer</dt>
@@ -77,14 +81,14 @@
             <dt>DSA Problem Solver</dt>
             <dd>-4 star coder at Hacker Rank </dd>
         </dl>
-        <hr size="2" noshade color="black">
+        <hr>
     <p><u><h3>Projects</h3></u></p>
         <table>
             <!--caption><h4>Example</h4></caption-->
             <thead>
                 <tr>
-                    <th>Field</th>
-                    <th>Work</th>
+                    <th><u>Field</u></th>
+                    <th><u>Work</u></th>
                 </tr>
            </thead>
             <tr>
@@ -96,7 +100,7 @@
                 <td>-   Working on ML model that suggests farmers a right crop to be cultivated </td>
             </tr>
         </table>
-        <hr size="2" noshade color="black">
+        <hr>
     <u><h3>Skills</h3></u>
     <table border="1" cellspacing="10">
         <tr>  <!--Row 1 starts here-->
@@ -163,7 +167,7 @@
         </tr>  <!--ROW End-->
     </table>
         <br>
-    <hr size="2" noshade color="black">
+        <hr>
 
     <u><h3>Key Coarses Taken:</h3></u>
         <ul>
@@ -171,7 +175,7 @@
             <li>Operating System(OS)</li>
             <li>Computer Networks(CN)</li>
         </ul>
-        <hr size="2" noshade color="black">
+        <hr>
 
     <u><h3>Achievements:</h3></u>
         <ol>
@@ -180,8 +184,9 @@
             <li><strong>JEE-Mains 2019</strong> : Qualified With <strong>92 Percentile : 35k</strong> rank among 8 lakh Candidates</li>
             <li><strong>AP-EMCET 2019</strong> :Secured <strong>State Rank of 8309</strong> among Approx 2 lakh Candidates</li>
         </ol>
-        <hr size="2" noshade color="black">
-    <h3><a href="Contact.html" target="_blank">Contact me:</a></h3>
+        <hr>
+    <h3><a href="Contact.html">Contact me:</a></h3>
+    
 
 
 </body>
